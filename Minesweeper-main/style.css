@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#board {
+    width: 315px;
+    height: 315px;
+
+    border: 10px solid darkgray;
+    background-color: lightgray;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div {
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+    cursor: pointer;
+
+    /* text */
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: darkgray;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: purple;
+}
+
+.x5 {
+    color: maroon;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: orange;
+}
+
+.x8 {
+    color: black;
+}
+
+#flagButton {
+    margin-top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 30px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+#theme {
+    margin-bottom: 30px;
+}
+
+#difficulty {
+    margin-bottom: 50px;
+}
